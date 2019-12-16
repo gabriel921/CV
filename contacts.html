@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>My contacts</h1>
+    <p>
+      General contacts for work purpose.
+      </p>
+    <ol type="1">
+      <li>Email: gabriel_ma21@hotmail.com</li>
+      <li>Phone: 9136685**</li>
+    </ol>
+
+    <hr>
+
+    <form action="mailto:gabriel_ma21@hotmail.com" method="post" enctype="text/plain">
+      <!-- os action no form levam a uma ação quando se carrega por exemplo no submit, caso lá deixe index.html leva-me de volta à minha homepage. Já o mailto quando tem um post attribute depois o que faz é enviar as coisas que o user escreve para o email que se coloca lá! -->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""> <br>
+      <label>Your email:</label>
+      <input type="email" name="yourEmail" value=""> <br>
+      <label for="">Your message</label> <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea> <br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
